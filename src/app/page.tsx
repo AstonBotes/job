@@ -1,11 +1,12 @@
-import Image from 'next/image'
 import Link from 'next/link'
-import { Router } from 'next/router'
+
+
 // `app/page.tsx` is the UI for the `/` URL
 export default function Home() {
   return (
-    <div>
-      <button>Click Me</button>
+    <div style={{background: 'lightblue'}}>
+      <button type='submit' style={{background: 'white'}}>Click Me</button><br></br>
+      <Link href="/dashboard">Dashboard</Link>
     </div>
   )
 }

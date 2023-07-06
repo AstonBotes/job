@@ -1,6 +1,9 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
 
+// The top-most layout is called the Root Layout. This required layout is shared across all 
+// pages in an application. Root layouts must contain html and body tags.
+
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
