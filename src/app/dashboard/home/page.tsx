@@ -46,7 +46,9 @@ export default function Page() {
       <Layout>
         <Header style={headerStyle}>Header</Header>
         <Content style={contentStyle}>Content</Content>
-        <Footer style={footerStyle}>Footer</Footer>
+        <Footer style={footerStyle}>
+          
+        </Footer>
       </Layout>
     </Layout>
   </Space>
